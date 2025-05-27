@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB5D64612DE05E74002562B1 /* DorayCompanion Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB5D643E2DE05E70002562B1 /* DorayCompanion Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FB5D641E2DE05BCE002562B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,50 @@
 			remoteGlobalIDString = FB5D640C2DE05BCC002562B1;
 			remoteInfo = DorayCompanion;
 		};
+		FB5D644E2DE05E74002562B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5D64052DE05BCC002562B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5D643D2DE05E70002562B1;
+			remoteInfo = "DorayCompanion Watch App Watch App";
+		};
+		FB5D64582DE05E74002562B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5D64052DE05BCC002562B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5D643D2DE05E70002562B1;
+			remoteInfo = "DorayCompanion Watch App Watch App";
+		};
+		FB5D645F2DE05E74002562B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5D64052DE05BCC002562B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5D643D2DE05E70002562B1;
+			remoteInfo = "DorayCompanion Watch App Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB5D64652DE05E74002562B1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FB5D64612DE05E74002562B1 /* DorayCompanion Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB5D640D2DE05BCC002562B1 /* DorayCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DorayCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D641D2DE05BCE002562B1 /* DorayCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorayCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D64272DE05BCE002562B1 /* DorayCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorayCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5D643E2DE05E70002562B1 /* DorayCompanion Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DorayCompanion Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5D644D2DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DorayCompanion Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5D64572DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DorayCompanion Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +85,21 @@
 		FB5D642A2DE05BCE002562B1 /* DorayCompanionUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DorayCompanionUITests;
+			sourceTree = "<group>";
+		};
+		FB5D643F2DE05E70002562B1 /* DorayCompanion Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DorayCompanion Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		FB5D64502DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DorayCompanion Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		FB5D645A2DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DorayCompanion Watch App Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +126,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB5D643B2DE05E70002562B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D644A2DE05E74002562B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D64542DE05E74002562B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +156,9 @@
 				FB5D640F2DE05BCC002562B1 /* DorayCompanion */,
 				FB5D64202DE05BCE002562B1 /* DorayCompanionTests */,
 				FB5D642A2DE05BCE002562B1 /* DorayCompanionUITests */,
+				FB5D643F2DE05E70002562B1 /* DorayCompanion Watch App Watch App */,
+				FB5D64502DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests */,
+				FB5D645A2DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests */,
 				FB5D640E2DE05BCC002562B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +169,9 @@
 				FB5D640D2DE05BCC002562B1 /* DorayCompanion.app */,
 				FB5D641D2DE05BCE002562B1 /* DorayCompanionTests.xctest */,
 				FB5D64272DE05BCE002562B1 /* DorayCompanionUITests.xctest */,
+				FB5D643E2DE05E70002562B1 /* DorayCompanion Watch App Watch App.app */,
+				FB5D644D2DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests.xctest */,
+				FB5D64572DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +186,12 @@
 				FB5D64092DE05BCC002562B1 /* Sources */,
 				FB5D640A2DE05BCC002562B1 /* Frameworks */,
 				FB5D640B2DE05BCC002562B1 /* Resources */,
+				FB5D64652DE05E74002562B1 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FB5D64602DE05E74002562B1 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				FB5D640F2DE05BCC002562B1 /* DorayCompanion */,
@@ -163,6 +249,74 @@
 			productReference = FB5D64272DE05BCE002562B1 /* DorayCompanionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FB5D643D2DE05E70002562B1 /* DorayCompanion Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5D64622DE05E74002562B1 /* Build configuration list for PBXNativeTarget "DorayCompanion Watch App Watch App" */;
+			buildPhases = (
+				FB5D643A2DE05E70002562B1 /* Sources */,
+				FB5D643B2DE05E70002562B1 /* Frameworks */,
+				FB5D643C2DE05E70002562B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FB5D643F2DE05E70002562B1 /* DorayCompanion Watch App Watch App */,
+			);
+			name = "DorayCompanion Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "DorayCompanion Watch App Watch App";
+			productReference = FB5D643E2DE05E70002562B1 /* DorayCompanion Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5D644C2DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5D64662DE05E74002562B1 /* Build configuration list for PBXNativeTarget "DorayCompanion Watch App Watch AppTests" */;
+			buildPhases = (
+				FB5D64492DE05E74002562B1 /* Sources */,
+				FB5D644A2DE05E74002562B1 /* Frameworks */,
+				FB5D644B2DE05E74002562B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5D644F2DE05E74002562B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB5D64502DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests */,
+			);
+			name = "DorayCompanion Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "DorayCompanion Watch App Watch AppTests";
+			productReference = FB5D644D2DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5D64562DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5D64692DE05E74002562B1 /* Build configuration list for PBXNativeTarget "DorayCompanion Watch App Watch AppUITests" */;
+			buildPhases = (
+				FB5D64532DE05E74002562B1 /* Sources */,
+				FB5D64542DE05E74002562B1 /* Frameworks */,
+				FB5D64552DE05E74002562B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5D64592DE05E74002562B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB5D645A2DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests */,
+			);
+			name = "DorayCompanion Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "DorayCompanion Watch App Watch AppUITests";
+			productReference = FB5D64572DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +338,17 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = FB5D640C2DE05BCC002562B1;
 					};
+					FB5D643D2DE05E70002562B1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FB5D644C2DE05E74002562B1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB5D643D2DE05E70002562B1;
+					};
+					FB5D64562DE05E74002562B1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB5D643D2DE05E70002562B1;
+					};
 				};
 			};
 			buildConfigurationList = FB5D64082DE05BCC002562B1 /* Build configuration list for PBXProject "DorayCompanion" */;
@@ -203,6 +368,9 @@
 				FB5D640C2DE05BCC002562B1 /* DorayCompanion */,
 				FB5D641C2DE05BCE002562B1 /* DorayCompanionTests */,
 				FB5D64262DE05BCE002562B1 /* DorayCompanionUITests */,
+				FB5D643D2DE05E70002562B1 /* DorayCompanion Watch App Watch App */,
+				FB5D644C2DE05E74002562B1 /* DorayCompanion Watch App Watch AppTests */,
+				FB5D64562DE05E74002562B1 /* DorayCompanion Watch App Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +391,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FB5D64252DE05BCE002562B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D643C2DE05E70002562B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D644B2DE05E74002562B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D64552DE05E74002562B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +442,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB5D643A2DE05E70002562B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D64492DE05E74002562B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5D64532DE05E74002562B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +475,21 @@
 			isa = PBXTargetDependency;
 			target = FB5D640C2DE05BCC002562B1 /* DorayCompanion */;
 			targetProxy = FB5D64282DE05BCE002562B1 /* PBXContainerItemProxy */;
+		};
+		FB5D644F2DE05E74002562B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5D643D2DE05E70002562B1 /* DorayCompanion Watch App Watch App */;
+			targetProxy = FB5D644E2DE05E74002562B1 /* PBXContainerItemProxy */;
+		};
+		FB5D64592DE05E74002562B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5D643D2DE05E70002562B1 /* DorayCompanion Watch App Watch App */;
+			targetProxy = FB5D64582DE05E74002562B1 /* PBXContainerItemProxy */;
+		};
+		FB5D64602DE05E74002562B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5D643D2DE05E70002562B1 /* DorayCompanion Watch App Watch App */;
+			targetProxy = FB5D645F2DE05E74002562B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,7 +634,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mata.DorayCompanion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jungmata.doraycompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,7 +663,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mata.DorayCompanion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jungmata.doraycompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -518,6 +743,140 @@
 			};
 			name = Release;
 		};
+		FB5D64632DE05E74002562B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DorayCompanion Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 94ADL6Z4T6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DorayCompanion Watch App Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jungmata.doraycompanion;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jungmata.doraycompanion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		FB5D64642DE05E74002562B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DorayCompanion Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 94ADL6Z4T6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DorayCompanion Watch App Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jungmata.doraycompanion;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jungmata.doraycompanion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		FB5D64672DE05E74002562B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ADL6Z4T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mata.DorayCompanion-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorayCompanion Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DorayCompanion Watch App Watch App";
+			};
+			name = Debug;
+		};
+		FB5D64682DE05E74002562B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ADL6Z4T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mata.DorayCompanion-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorayCompanion Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DorayCompanion Watch App Watch App";
+			};
+			name = Release;
+		};
+		FB5D646A2DE05E74002562B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ADL6Z4T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mata.DorayCompanion-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DorayCompanion Watch App Watch App";
+			};
+			name = Debug;
+		};
+		FB5D646B2DE05E74002562B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ADL6Z4T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mata.DorayCompanion-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DorayCompanion Watch App Watch App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +912,33 @@
 			buildConfigurations = (
 				FB5D64382DE05BCE002562B1 /* Debug */,
 				FB5D64392DE05BCE002562B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5D64622DE05E74002562B1 /* Build configuration list for PBXNativeTarget "DorayCompanion Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5D64632DE05E74002562B1 /* Debug */,
+				FB5D64642DE05E74002562B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5D64662DE05E74002562B1 /* Build configuration list for PBXNativeTarget "DorayCompanion Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5D64672DE05E74002562B1 /* Debug */,
+				FB5D64682DE05E74002562B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5D64692DE05E74002562B1 /* Build configuration list for PBXNativeTarget "DorayCompanion Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5D646A2DE05E74002562B1 /* Debug */,
+				FB5D646B2DE05E74002562B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
