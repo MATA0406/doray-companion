@@ -1,0 +1,48 @@
+{
+  "source": "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/AppIconView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "⏰",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "🏢",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "DC",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "⏰",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "🏢",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 84
+        }
+      }
+    ]
+  },
+  "version": 1
+}

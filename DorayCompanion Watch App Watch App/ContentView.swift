@@ -34,78 +34,88 @@ struct ContentView: View {
   }
 
   var body: some View {
-    VStack(spacing: 10) {
-      // 상태 표시
-      VStack(spacing: 5) {
-        Text("출퇴근 상태")
-          .font(.headline)
+    ScrollView {
+      VStack(spacing: 10) {
+        // 상태 표시
+        VStack(spacing: 5) {
+          Text("출퇴근 상태")
+            .font(.headline)
 
-        Text(statusMessage)
-          .font(.caption)
-          .multilineTextAlignment(.center)
-          .lineLimit(3)
-      }
-      .padding(.horizontal)
-
-      Spacer()
-
-      VStack(spacing: 8) {
-        // 출근 버튼
-        Button(action: {
-          session.send(action: "checkIn")
-        }) {
-          HStack {
-            Image(systemName: "clock.arrow.circlepath")
-            Text("출근")
-          }
-          .font(.caption)
-          .frame(maxWidth: .infinity)
+          Text(statusMessage)
+            .font(.caption)
+            .multilineTextAlignment(.center)
+            .lineLimit(3)
         }
-        .buttonStyle(PlainButtonStyle())
-        .foregroundColor(.blue)
+        .padding(.horizontal)
 
-        // 퇴근 버튼
-        Button(action: {
-          session.send(action: "checkOut")
-        }) {
-          HStack {
-            Image(systemName: "clock.arrow.circlepath")
-            Text("퇴근")
+        VStack(spacing: 8) {
+          // 출근/퇴근 버튼 (좌우 배치)
+          HStack(spacing: 8) {
+            // 출근 버튼
+            Button(action: {
+              session.send(action: "checkIn")
+            }) {
+              VStack(spacing: 4) {
+                Image(systemName: "clock.arrow.circlepath")
+                Text("출근")
+              }
+              .font(.caption)
+              .foregroundColor(.white)
+              .frame(maxWidth: .infinity)
+              .padding(.vertical, 8)
+              .background(Color.blue)
+              .cornerRadius(8)
+            }
+            .buttonStyle(PlainButtonStyle())
+
+            // 퇴근 버튼
+            Button(action: {
+              session.send(action: "checkOut")
+            }) {
+              VStack(spacing: 4) {
+                Image(systemName: "clock.arrow.circlepath")
+                Text("퇴근")
+              }
+              .font(.caption)
+              .foregroundColor(.white)
+              .frame(maxWidth: .infinity)
+              .padding(.vertical, 8)
+              .background(isAfter6PM ? Color.red : Color.gray)
+              .cornerRadius(8)
+            }
+            .buttonStyle(PlainButtonStyle())
+            .disabled(!isAfter6PM)
           }
-          .font(.caption)
-          .frame(maxWidth: .infinity)
-        }
-        .buttonStyle(PlainButtonStyle())
-        .foregroundColor(isAfter6PM ? .red : .gray)
-        .disabled(!isAfter6PM)
-
-        // 서버 상태 표시
-        Button(action: {
-          session.send(action: "ping")
-        }) {
-          HStack {
-            Image(systemName: "wifi")
-            Text("서버 확인")
+          
+          // 서버 확인 버튼 (가로 꽉 차게)
+          Button(action: {
+            session.send(action: "fetchStatus")
+          }) {
+            HStack {
+              Image(systemName: "wifi")
+              Text("서버 확인")
+            }
+            .font(.caption)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 8)
+            .background(Color.green)
+            .cornerRadius(8)
           }
-          .font(.caption)
-          .frame(maxWidth: .infinity)
+          .buttonStyle(PlainButtonStyle())
         }
-        .buttonStyle(PlainButtonStyle())
-        .foregroundColor(.green)
-      }
-      .padding(.horizontal)
+        .padding(.horizontal)
 
-      Spacer()
-
-      // 알림 메시지
-      if !session.statusMessage.isEmpty {
-        Text(session.statusMessage)
-          .font(.caption)
-          .multilineTextAlignment(.center)
-          .padding(.horizontal)
+        // 알림 메시지
+        if !session.statusMessage.isEmpty {
+          Text(session.statusMessage)
+            .font(.caption)
+            .multilineTextAlignment(.center)
+            .padding(.horizontal)
+        }
       }
+      .padding(.vertical)
     }
-    .padding(.vertical)
     .onAppear {
       // Watch 앱이 시작될 때 자동으로 두레이 상태 조회
       session.send(action: "fetchStatus")

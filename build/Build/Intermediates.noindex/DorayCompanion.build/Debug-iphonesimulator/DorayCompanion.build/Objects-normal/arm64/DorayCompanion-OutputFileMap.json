@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanion-master.dia",
+    "emit-module-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanion-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanion-master-emit-module.dia",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanion-master.swiftdeps"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/AppIconView.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/AppIconView~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/Config.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/Config~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/ContentView.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/DorayCompanionApp.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/DorayCompanionApp~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/LaunchScreen.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/LaunchScreen~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion/WatchSessionManager.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-iphonesimulator/DorayCompanion.build/Objects-normal/arm64/WatchSessionManager~partial.swiftmodule"
+  }
+}

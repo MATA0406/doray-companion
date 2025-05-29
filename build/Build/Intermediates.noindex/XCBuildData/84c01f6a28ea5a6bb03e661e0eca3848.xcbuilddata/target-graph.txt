@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'DorayCompanion' in project 'DorayCompanion'
+➜ Explicit dependency on target 'DorayCompanion Watch App Watch App' in project 'DorayCompanion'
+Target 'DorayCompanion Watch App Watch App' in project 'DorayCompanion' (no dependencies)

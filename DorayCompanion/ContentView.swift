@@ -27,7 +27,7 @@ struct ContentView: View {
                 .foregroundColor(.secondary)
             
             // 출근/퇴근 시간 표시
-            HStack(spacing: 40) {
+            HStack(spacing: 0) {
                 VStack(spacing: 8) {
                     Text("출근")
                         .font(.headline)
@@ -37,6 +37,7 @@ struct ContentView: View {
                         .fontWeight(.semibold)
                         .foregroundColor(.primary)
                 }
+                .frame(maxWidth: .infinity)
                 
                 VStack(spacing: 8) {
                     Text("퇴근")
@@ -47,10 +48,12 @@ struct ContentView: View {
                         .fontWeight(.semibold)
                         .foregroundColor(.primary)
                 }
+                .frame(maxWidth: .infinity)
             }
             .padding()
             .background(Color(.systemGray6))
             .cornerRadius(12)
+            .padding(.horizontal)
             
             // 상태 메시지
             if !session.statusMessage.isEmpty {

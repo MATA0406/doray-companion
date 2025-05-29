@@ -1,0 +1,68 @@
+{
+  "" : {
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion Watch App Watch App-master.dia",
+    "emit-module-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion Watch App Watch App-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion Watch App Watch App-master-emit-module.dia",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion Watch App Watch App-master.swiftdeps"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion Watch App Watch App/Config.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/Config~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion Watch App Watch App/ContentView.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion Watch App Watch App/DorayCompanion_Watch_AppApp.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/DorayCompanion_Watch_AppApp~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion Watch App Watch App/LaunchScreen.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/LaunchScreen~partial.swiftmodule"
+  },
+  "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion Watch App Watch App/WatchSessionManager.swift" : {
+    "const-values" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.swiftconstvalues",
+    "dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.d",
+    "diagnostics" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.dia",
+    "index-unit-output-path" : "/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.o",
+    "llvm-bc" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.bc",
+    "object" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.o",
+    "swift-dependencies" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager.swiftdeps",
+    "swiftmodule" : "/Users/monthlykitchen/dev/DorayCompanion/build/Build/Intermediates.noindex/DorayCompanion.build/Debug-watchsimulator/DorayCompanion Watch App Watch App.build/Objects-normal/x86_64/WatchSessionManager~partial.swiftmodule"
+  }
+}

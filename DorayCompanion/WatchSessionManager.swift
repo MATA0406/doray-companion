@@ -196,6 +196,47 @@ class WatchSessionManager: NSObject, WCSessionDelegate, ObservableObject {
         }
     }
 
+    /// UI 정보 업데이트 헬퍼 메서드 (에러가 아닌 정보성 메시지용)
+    private func updateUIWithInfo(_ message: String) {
+        DispatchQueue.main.async {
+            self.statusMessage = "ℹ️ \(message)"
+            
+            // 4초 후 메시지 초기화 (정보성 메시지는 조금 더 빨리)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+                self.statusMessage = ""
+            }
+        }
+    }
+    
+    /// 서버 에러 메시지를 친근한 메시지로 변환
+    private func convertToFriendlyMessage(_ errorMessage: String, isCheckIn: Bool) -> String {
+        let lowercaseError = errorMessage.lowercased()
+        
+        if isCheckIn {
+            // 출근 관련 메시지
+            if lowercaseError.contains("이미") && lowercaseError.contains("출근") {
+                return "이미 출근 완료했어요! 😊"
+            } else if lowercaseError.contains("비활성화") && lowercaseError.contains("출근") {
+                return "오늘 출근은 이미 끝났어요 ✅"
+            } else if lowercaseError.contains("찾을 수 없") && lowercaseError.contains("출근") {
+                return "출근 버튼을 찾을 수 없어요 😅"
+            } else {
+                return "출근 처리 중 문제가 생겼어요"
+            }
+        } else {
+            // 퇴근 관련 메시지
+            if lowercaseError.contains("이미") && lowercaseError.contains("퇴근") {
+                return "이미 퇴근 완료했어요! 😊"
+            } else if lowercaseError.contains("비활성화") && lowercaseError.contains("퇴근") {
+                return "오늘 퇴근은 이미 끝났어요 ✅"
+            } else if lowercaseError.contains("찾을 수 없") && lowercaseError.contains("퇴근") {
+                return "퇴근 버튼을 찾을 수 없어요 😅"
+            } else {
+                return "퇴근 처리 중 문제가 생겼어요"
+            }
+        }
+    }
+
     // MARK: — Watch Communication (기존 private 메서드들)
     
     /// Watch에서 오는 액션 처리용 (기존 로직)
@@ -269,13 +310,31 @@ class WatchSessionManager: NSObject, WCSessionDelegate, ObservableObject {
                         "message": "실제 출퇴근 시간 조회 완료"
                     ])
                 } else {
-                    // 서버에서 실패 응답
+                    // 서버에서 실패 응답 - 에러 메시지 분석해서 친근한 메시지로 변환
                     let errorMsg = json?["error"] as? String ?? "알 수 없는 오류"
-                    self?.sendErrorToWatch("서버 오류: \(errorMsg)")
+                    let friendlyMessage = self?.convertToFriendlyMessage(errorMsg, isCheckIn: false) ?? errorMsg
+                    
+                    // UI 업데이트 (iPhone 앱용)
+                    self?.updateUIWithInfo(friendlyMessage)
+                    
+                    // Watch로 전송 (Watch 앱용)
+                    self?.sendToWatch([
+                        "type": "statusResult",
+                        "success": false,
+                        "message": friendlyMessage
+                    ])
                 }
             } catch {
                 print("❌ [iOS] JSON parsing failed:", error)
-                self?.sendErrorToWatch("응답 파싱 실패")
+                
+                // 실제 시간 조회 실패 시에도 성공 메시지는 표시
+                DispatchQueue.main.async {
+                    self?.statusMessage = "✅ 실제 출퇴근 시간 조회 (시간 조회 실패)"
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                        self?.statusMessage = ""
+                    }
+                }
             }
         }.resume()
     }
@@ -361,17 +420,18 @@ class WatchSessionManager: NSObject, WCSessionDelegate, ObservableObject {
                         timeKey: timeKey
                     )
                 } else {
-                    // 서버에서 실패 응답
+                    // 서버에서 실패 응답 - 에러 메시지 분석해서 친근한 메시지로 변환
                     let errorMsg = json?["error"] as? String ?? "알 수 없는 오류"
+                    let friendlyMessage = self?.convertToFriendlyMessage(errorMsg, isCheckIn: false) ?? errorMsg
                     
                     // UI 업데이트 (iPhone 앱용)
-                    self?.updateUIWithError("\(failureMessage): \(errorMsg)")
+                    self?.updateUIWithInfo(friendlyMessage)
                     
                     // Watch로 전송 (Watch 앱용)
                     self?.sendToWatch([
                         "type": resultType,
                         "success": false,
-                        "message": "\(failureMessage): \(errorMsg)"
+                        "message": friendlyMessage
                     ])
                 }
             } catch {

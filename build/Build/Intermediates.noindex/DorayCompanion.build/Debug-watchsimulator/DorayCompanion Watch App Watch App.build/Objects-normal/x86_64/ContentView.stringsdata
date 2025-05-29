@@ -1,0 +1,40 @@
+{
+  "source": "/Users/monthlykitchen/dev/DorayCompanion/DorayCompanion Watch App Watch App/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "출퇴근 상태",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "출근",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "퇴근",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "서버 확인",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 96
+        }
+      }
+    ]
+  },
+  "version": 1
+}
